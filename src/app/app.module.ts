@@ -12,6 +12,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { LinksComponent } from './links/links.component';
+import { GithubService } from './projects/services/github.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { LinksComponent } from './links/links.component';
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [GithubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
