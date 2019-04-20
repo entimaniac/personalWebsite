@@ -1,9 +1,8 @@
-.is-accented {
+.timeline-marker.is-accented {
   background-color: #28a3cf !important;
   border-color: #28a3cf !important;
 }
 
-.is-accented-icon {
+i.is-accented {
   color: #28a3cf !important;
 }
-
