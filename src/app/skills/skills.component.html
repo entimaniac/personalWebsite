@@ -1,3 +1,45 @@
-<p>
-  skills works!
-</p>
+<section id="skillsSectionId" class="hero is-dark is-fullheight">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+
+        <!-- left side -->
+        <div class="column is-half">
+          <h5 class="title is-5">Profile</h5>
+          <p>I'm a lover of technology, video games, nature, and oxford commas. I use my skills as a fullstack developer
+            to create responsive webapps with secure, effecient backends.</p>
+
+          <br>
+
+          <h5 class="title is-5">Profile</h5>
+          <p>I'm a lover of technology, video games, nature, and oxford commas. I use my skills as a fullstack developer
+            to create responsive webapps with secure, effecient backends.</p>
+
+        </div>
+
+        <!-- right side -->
+        <div class="column is-half">
+          <h5 class="title is-5">My Skills</h5>
+          <ul class="skills-list">
+            <div *ngFor="let skill of skills">
+              <li class="progress-padding">
+                <div>
+                  <div class="columns is-mobile">
+                    <div class="column is-half">
+                      <p class="is-uppercase">{{skill.name}}</p>
+                    </div>
+                    <div class="column is-half" align="right">
+                      <p>{{skill.rating}}%</p>
+                    </div>
+                  </div>
+                </div>
+                <progress class="progress is-small is-accented" value="{{skill.rating}}" max="100"></progress>
+              </li>
+            </div>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
