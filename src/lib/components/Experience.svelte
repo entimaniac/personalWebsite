@@ -1,0 +1,43 @@
+<section id="experienceSectionId" class="hero is-dark is-fullheight">
+	<div class="hero-body">
+		<div class="container">
+			<h1 class="title">My Experience</h1>
+
+			<div class="timeline is-centered">
+				<div class="timeline-item">
+					<div class="timeline-marker is-accented"></div>
+					<div class="timeline-content">
+						<p class="title is-5">October 2016</p>
+						<p class="subtitle is-7">General Motors</p>
+						<p>Associate Developer</p>
+					</div>
+				</div>
+				<div class="timeline-item">
+					<div class="timeline-marker is-accented"></div>
+					<div class="timeline-content">
+						<p class="title is-5">August 2016</p>
+						<p class="subtitle is-7">General Motors</p>
+						<p>Associate Software Developer</p>
+					</div>
+				</div>
+				<div class="timeline-item">
+					<div class="timeline-marker is-accented"></div>
+					<div class="timeline-content">
+						<p class="title is-5">May 2016</p>
+						<p class="subtitle is-7">Data Targeting</p>
+						<p>Data Engineer</p>
+					</div>
+				</div>
+				<div class="timeline-item">
+					<div class="timeline-marker is-accented"></div>
+					<div class="timeline-content">
+						<p class="title is-5">March 2016</p>
+						<p class="subtitle is-7">Raycon Technologies</p>
+						<p>Independent Contractor</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+

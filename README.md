@@ -1,27 +1,69 @@
-# PersonalWebsite
+# Personal Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
+A personal portfolio website built with SvelteKit, showcasing skills, experience, and contact information.
 
-## Development server
+## Tech Stack
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- **SvelteKit** - Modern web framework
+- **TypeScript** - Type-safe development
+- **Bulma** - CSS framework
+- **Font Awesome** - Icons
 
-## Code scaffolding
+## Development
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Install dependencies:
 
-## Build
+```bash
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Start the development server:
 
-## Running unit tests
+```bash
+npm run dev
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Navigate to `http://localhost:5173/`. The app will automatically reload when you make changes.
 
-## Running end-to-end tests
+## Building
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+To create a production build:
 
-## Further help
+```bash
+npm run build
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```
+src/
+├── lib/
+│   └── components/     # Svelte components
+│       ├── About.svelte
+│       ├── Skills.svelte
+│       ├── Experience.svelte
+│       └── Links.svelte
+├── routes/
+│   ├── +layout.svelte  # Layout with CSS imports
+│   ├── +page.svelte    # Main page
+│   └── styles.css      # Custom styles
+└── app.html            # HTML template
+```
+
+## Features
+
+- Responsive design with Bulma CSS
+- Hero section with background image
+- Skills showcase with progress bars
+- Timeline of work experience
+- Social media links (LinkedIn, GitHub, Email)
+
+## Deployment
+
+To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment (Vercel, Netlify, etc.).

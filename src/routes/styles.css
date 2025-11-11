@@ -1,0 +1,31 @@
+.timeline-marker.is-accented {
+	background-color: #28a3cf !important;
+	border-color: #28a3cf !important;
+}
+
+i.is-accented {
+	color: #28a3cf !important;
+}
+
+.progress.is-accented::-webkit-progress-bar {
+	background: black;
+}
+
+.progress.is-accented::-webkit-progress-value {
+	background-color: #28a3cf !important;
+	color: #28a3cf !important;
+}
+
+.progress.is-accented::-moz-progress-bar {
+	background: black;
+}
+
+.progress.is-accented::-moz-progress-value {
+	background-color: #28a3cf !important;
+	color: #28a3cf !important;
+}
+
+.progress.is-accented:indeterminate {
+	background-image: linear-gradient(to right, #28a3cf 30%, #dbdbdb 30%);
+}
+
